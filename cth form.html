@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.col-25 {
+  float: left;
+  width: 18%;
+  margin-top: 6px;
+}
+
+.col-60 {
+  float: left;
+  width: 30%;
+  margin-top: 6px;
+}
+.col-50 {
+  float: left;
+  width: 18%;
+  margin-top: 6px;
+}
+
+.col-80 {
+  float: left;
+  width: 30%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 50%;
+    margin-top: 0;
+  }
+  
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+}
+
+</style>
+</head>
+<body>
+
+<h2>Responsive Form</h2>
+<p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other.</p>
+<div class="container">
+    <p>Stesen</p>
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Nama Stesen</label>
+    </div>
+    <div class="col-60">
+        <input type="text" id="fname" name="fname" value="Stesen Pauh, Kedah">
+    </div>
+  </div>
+      <div class="row">
+      <div class="col-25">
+         <label for="country">Lalitude</label>
+      </div>
+      <div class="col-60">
+          <input type="text" id="lname" name="lname" value="XXXXX">
+     </div>
+       </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Tarikh TnC</label>
+    </div>
+    <div class="col-60">
+        <input type="text" id="lname" name="lname" value="XXXXX">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">AMSL</label>
+    </div>
+    <div class="col-60">
+        <input type="text" id="lname" name="lname" value="XXXXX">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Jagaan</label>
+    </div>
+    <div class="col-60">
+        <input type="text" id="lname" name="lname" value="XXXXX">
+    </div>
+    </div>
+    <div class="row">
+     <div class="col-25">
+        <label for="country">Longitude</label>
+     </div>
+     <div class="col-60">
+         <input type="text" id="lname" name="lname" value="XXXXX">
+    </div>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+       <label for="country">Lalitude</label>
+    </div>
+    <div class="col-60">
+        <input type="text" id="lname" name="lname" value="XXXXX">
+   </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Nama Stesen</label>
+        </div>
+        <div class="col-60">
+            <input type="text" id="fname" name="fname" value="Stesen Pauh, Kedah">
+        </div>
+      </div>
+          <div class="row">
+          <div class="col-25">
+             <label for="country">Lalitude</label>
+          </div>
+          <div class="col-60">
+              <input type="text" id="lname" name="lname" value="XXXXX">
+         </div>
+           </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Tarikh TnC</label>
+        </div>
+        <div class="col-60">
+            <input type="text" id="lname" name="lname" value="XXXXX">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">AMSL</label>
+        </div>
+        <div class="col-60">
+            <input type="text" id="lname" name="lname" value="XXXXX">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Jagaan</label>
+        </div>
+        <div class="col-60">
+            <input type="text" id="lname" name="lname" value="XXXXX">
+        </div>
+        </div>
+        <div class="row">
+         <div class="col-25">
+            <label for="country">Longitude</label>
+         </div>
+         <div class="col-60">
+             <input type="text" id="lname" name="lname" value="XXXXX">
+        </div>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+           <label for="country">Lalitude</label>
+        </div>
+        <div class="col-60">
+            <input type="text" id="lname" name="lname" value="XXXXX">
+       </div>
+          </div>
+      <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+
+</body>
+</html>

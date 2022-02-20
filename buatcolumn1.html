@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+   float: left;
+  width: 50%;
+  padding: 10px;
+  height: 450px; /* Should be removed. Only for demonstration */
+}
+div {
+  border-style: solid;
+  border-color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Data Stesen Pemancar</h2>
+
+<div class="row">
+    <div class="column" style="background-color:rgb(214, 212, 212);">
+    <h3>Stesen Padang Pauh, Perlis</h3>
+    <form action="/action_page.php">
+        <label for="fname">Tarikh TnC:</label>
+        <input type="text" id="fname" name="fname" value="2008"><br><br>
+        <label for="lname">AMSL:</label>
+        <input type="text" id="lname" name="lname" value="10"><br><br>
+        <label for="fname">Jagaan:</label>
+        <input type="text" id="fname" name="fname" value="RTM"><br><br>
+        <label for="lname">Logitude &euro; :</label>
+        <input type="text" id="lname" name="lname" value="100⁰13'5&#8221 " 
+        ><br><br>
+        <label for="lname">Latitude (N):</label>
+        <input type="text" id="lname" name="lname" value="6⁰29'25&#8221" 
+        ><br><br>
+        <label for="lname">Input:</label>
+        <input type="text" id="lname" name="lname" value="Line Telekom" 
+        ><br><br>
+        <label for="lname">No. Telefon:</label>
+        <input type="text" id="lname" name="lname" value="Line Telekom" 
+        ><br>
+        
+      </form> 
+      
+  </div>
+  <div class="column" style="background-color:rgb(214, 212, 212);">
+    <h4>Pemancar</h4>
+    <form action="/action_page.php">
+        <label for="fname">Jenama:</label><br>
+        <input type="text" id="fname" name="fname" value="2008"><br>
+        <label for="lname">Modal:</label><br>
+        <input type="text" id="lname" name="lname" value="10"><br>
+        <label for="fname">Kuasa (W):</label><br>
+        <input type="text" id="fname" name="fname" value="RTM"><br>
+        <label for="lname">Konfigurasi (N+1):</label><br>
+        <input type="text" id="lname" name="lname" value="100⁰13'5&#8221 " 
+        ><br>
+        <label for="lname">ERP:</label><br>
+        <input type="text" id="lname" name="lname" value="6⁰29'25&#8221" 
+        ><br>
+        <h4>Menara:</h4>
+        <label for="lname">Jenis Menara:</label><br>
+        <input type="text" id="lname" name="lname" value="6⁰29'25&#8221" 
+        ><br>
+        <label for="lname">Tinggi Menara:</label><br>
+        <input type="text" id="lname" name="lname" value="6⁰29'25&#8221" 
+        ><br>
+        
+      </form> 
+  </div>
+</div>
+<div class="column" style="background-color:rgb(214, 212, 212);">
+  <h4>Antena</h4>
+  <form action="/action_page.php">
+    <label for="fname">Jenama:</label><br>
+    <input type="text" id="fname" name="fname" value="2008"><br>
+    <label for="lname">Modal Manufacturer:</label><br>
+    <input type="text" id="lname" name="lname" value="10"><br>
+    <label for="fname">Bil. Pengarahan:</label><br>
+    <input type="text" id="fname" name="fname" value="RTM"><br>
+    <label for="lname">Sudut Pengarahan:</label><br>
+    <input type="text" id="lname" name="lname" value="100⁰13'5&#8221 " 
+    ><br>
+    <label for="lname">Bil. Panel:</label><br>
+    <input type="text" id="lname" name="lname" value="6⁰29'25&#8221" 
+    ><br>
+    <label for="lname">Antena Gain :</label><br>
+    <input type="text" id="lname" name="lname" value="6⁰29'25&#8221" 
+    ><br>
+    <label for="lname">Polarization:</label><br>
+    <input type="text" id="lname" name="lname" value="6⁰29'25&#8221" 
+    ><br>
+    <label for="lname">Tinggi Antena (M):</label><br>
+    <input type="text" id="lname" name="lname" value="6⁰29'25&#8221" 
+    ><br>
+    
+    
+  </form> 
+    
+</div>
+</div>
+<div class="column" style="background-color:rgb(214, 212, 212);">
+  <h4>Frekuensi</h4>
+  <form action="/action_page.php">
+    <label for="fname">Klasik FM:</label><br>
+    <input type="text" id="fname" name="fname" value="2008"><br>
+    <label for="lname">Nasional FM:</label><br>
+    <input type="text" id="lname" name="lname" value="10"><br>
+    <label for="fname">Perlis FM:</label><br>
+    <input type="text" id="fname" name="fname" value="RTM"><br>
+    <label for="lname">Traxx FM:</label><br>
+    <input type="text" id="lname" name="lname" value="100⁰13'5&#8221 " 
+    ><br>
+    <label for="lname">Ai FM:</label><br>
+    <input type="text" id="lname" name="lname" value="6⁰29'25&#8221" 
+    ><br>
+    <label for="lname">Minnal FM:</label><br>
+    <input type="text" id="lname" name="lname" value="6⁰29'25&#8221" 
+    ><br>
+      
+  </form> 
+  
+</div>
+
+</body>
+</html>
+<input type="submit" value="Submit">
+
+

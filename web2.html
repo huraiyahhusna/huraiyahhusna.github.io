@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWeb</title>
+   
+</head>
+<style>
+*{
+    font-size: 15px;
+    color: rgb(139, 137, 137);
+}
+Body{
+    margin: 0;
+    padding: 0;
+}
+header, nav, main, aside, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #fff 1px solid;
+}
+header{
+    width: 99.8%;
+    height: 100px;
+    background-image: url(gambar/Template3.png);
+    background-size: cover;
+}
+nav{
+    width: 99.8%;
+    height: 20px;
+    background: rgb(229, 226, 226);
+    list-style-type: none;
+    
+}
+nav ul{
+    margin: 0px;
+    display: block;
+    float: right;
+    list-style-type: none;
+    padding: 10px;
+}
+main{
+    width: 79.8%;
+    height: 358px;
+    background-image: url(gambar/tasik.jpg);
+    background-size: cover;
+    background-position: 0 0;
+   
+}
+aside{
+    width: 19.8%;
+    height: 358px;
+    background: rgb(2, 15, 54);
+
+}
+footer{
+    width: 99.8%;
+    height: 98px;
+    background: rgb(233, 232, 231);
+}
+
+   </style>
+<body>
+    <div>
+        <header>
+            <p>MyWeb</p>
+        </header>
+        <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="#">Utama</a></ul><li>
+                <li><a href="#">Galeri</a></ul><li>
+                <li><a href="#">Carian</a></ul><li>
+            </ul>
+        </nav>
+        </div>
+         <div style="display: flex;">
+            <main>
+                <p>Tasik</p>
+            </main>
+            <aside>             
+              <li><a href="#">Bunga</a></li>            
+            </aside>
+        </div>
+        <footer>
+            <p>Footer</p>
+        </footer>
+    </div>
+</body>
+</html>
